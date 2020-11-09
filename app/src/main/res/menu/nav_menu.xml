@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainListFragmnet"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/catagoriesFragment"
+        android:title="@string/categories"
+        android:icon="@drawable/ic_categories"
+        />
+    <item
+        android:id="@+id/action_invisible"
+        android:title=""
+        android:enabled="false"/>
+    <item
+        android:id="@+id/favioratBookFrag"
+        android:title="@string/saved_books"
+        android:icon="@drawable/ic_favorite"
+        />
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"
+        />
+</menu>
